@@ -8,7 +8,7 @@ function Chat_area({user,message,classs}) {
       </div>
     )
   }else{
-    return (
+    return ( 
     <div className={`messagebox ${classs}`}>
       <p>{`you: ${message}`}</p>
     </div>

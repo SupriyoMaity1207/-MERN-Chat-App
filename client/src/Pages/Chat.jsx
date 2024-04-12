@@ -84,7 +84,7 @@ function Chat() {
             socket.off();
         }
 
-    }, [messages])
+    }, [messages]) 
     return (
 
         <div className="container">
